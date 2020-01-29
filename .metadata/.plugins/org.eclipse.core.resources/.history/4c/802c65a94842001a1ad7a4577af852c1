@@ -1,0 +1,33 @@
+package co.com.accenture.certificacion.reviewdespegar.tasks;
+
+import java.util.List;
+
+import co.com.accenture.certificacion.reviewdespegar.userinterfaces.DataPageFlight;
+import net.serenitybdd.screenplay.Actor;
+import net.serenitybdd.screenplay.Task;
+import net.serenitybdd.screenplay.Tasks;
+import net.serenitybdd.screenplay.actions.Click;
+import net.serenitybdd.screenplay.actions.Enter;
+
+public class InsertData implements Task{
+
+	private List<List<String>> dataFlight;
+
+	public InsertData(List<List<String>> dataFlight) {
+		this.dataFlight = dataFlight;
+	}
+
+	@Override
+	public <T extends Actor> void performAs(T actor) {
+		actor.attemptsTo(Click.on(DataPageFlight.ICON), Click.on(DataPageFlight.ORIGINCITY),
+				Enter.theValue(dataFlight.get(1).get(1)));
+		
+	}
+	
+	public static InsertData inthePage(List<List<String>> dataFlight) {
+		return Tasks.instrumented(InsertData.class, dataFlight);
+	}
+	
+
+	
+}

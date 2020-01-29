@@ -1,0 +1,11 @@
+package co.com.accenture.certificacion.reviewdespegar.userinterfaces;
+
+import net.serenitybdd.screenplay.targets.Target;
+
+public class DataPageFlight extends PageObject{
+
+	public static final Target ICON= Target.the("Select the option flight").locatedBy("(//shifu-icon-product shifu-3-icon-flights)");
+	
+	
+}
+

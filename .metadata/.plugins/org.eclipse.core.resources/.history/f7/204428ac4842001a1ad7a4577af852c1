@@ -1,0 +1,15 @@
+package co.com.accenture.certificacion.reviewdespegar.userinterfaces;
+
+import net.serenitybdd.core.pages.PageObject;
+import net.serenitybdd.screenplay.targets.Target;
+
+public class DataPageFlight extends PageObject{
+
+	public static final Target ICON= Target.the("Select the option flight").locatedBy("//*[@class='shifu-icon-product shifu-3-icon-flights']");
+	public static final Target ORIGINCITY= Target.the("Select the origin city").locatedBy("//*[@class='sbox-3-input -md sbox-3-validation -top-right -icon-left sbox-origin-container places-inline']");
+	public static final Target DESTINATIONCITY= Target.the("Select the destination city").locatedBy("//*[@class='sbox-3-input -md sbox-3-validation -top-right -icon-left sbox-destination-container']");
+	public static final Target ORIGINDATE=Target.the("Select the origin date").locatedBy("");
+	public static final Target DESTINATIONDATE=Target.the("Select the destination date").locatedBy("");		
+	
+}
+

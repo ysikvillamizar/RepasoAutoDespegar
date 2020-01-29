@@ -1,0 +1,6 @@
+package co.com.accenture.certificacion.reviewdespegar.tasks;
+
+public class NavegationPage implements Task {
+
+	private final Page page;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="FligthReservationRunner" project="ReviewDespegar" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="co.com.accenture.certificacion.reviewdespegar.runners.FligthReservationRunner" time="23.215">
+    <testsuite name="Feature: Make a fligth reservation" time="23.215">
+      <testcase name="Successfull flight reservation from main Despegar website" classname="Make a fligth reservation" time="23.215">
+        <skipped>cucumber.runtime.junit.UndefinedThrowable: The step "the Actor insert the data from flight" is undefined&#13;
+&#13;
+</skipped>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

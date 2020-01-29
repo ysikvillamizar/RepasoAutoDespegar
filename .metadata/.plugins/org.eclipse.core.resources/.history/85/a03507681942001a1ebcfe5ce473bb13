@@ -1,0 +1,6 @@
+package co.com.accenture.certificacion.reviewdespegar.userinterfaces;
+
+public  enum Page {
+
+	Despegar("www.despegar.com.co");
+}

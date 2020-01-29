@@ -1,0 +1,14 @@
+package co.com.accenture.certificacion.reviewdespegar.tasks;
+
+import java.util.List;
+
+public class InsertData implements Task{
+
+	private List<List<String>> dataFlight;
+
+	public InsertData(List<List<String>> dataFlight) {
+		this.dataFlight = dataFlight;
+	}
+	
+	
+}

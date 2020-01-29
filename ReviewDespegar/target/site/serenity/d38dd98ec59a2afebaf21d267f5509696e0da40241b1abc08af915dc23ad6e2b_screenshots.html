@@ -1,0 +1,287 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="ef67cbec39bbec3913297483176567c685a981dae77f0bc908e186935d514620.html">Make A Fligth Reservation</a></span>
+                > <span class="truncate-60"><a
+                    href="d38dd98ec59a2afebaf21d267f5509696e0da40241b1abc08af915dc23ad6e2b.html">Successfull flight reservation from main Despegar website </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 29-01-2020 01:40</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Make A Fligth Reservation </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a web user<br />
+She want to make a flight reservation<br />
+To do test using the programming Cucumber a Guerkin.
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="bca18eb34184f466810ee7a90d04748e21a2df6dea7311083e75ce6b8ed2a2f5.html">Tag1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="ec3644e9342d32fe427f28bfa83a3084b3999493dbafdd95c2d0cbb278b71b7f.html">Tag
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
+                            <span class="test-case-title">
+                                <span class="failing-color">Successfull flight reservation from main Despegar website
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element should be enabled exception: Expected enabled element was not enabled</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>co.com.accenture.certificacion.reviewdespegar.tasks.InsertData.performAs(InsertData.java:25)<br />co.com.accenture.certificacion.reviewdespegar.stepdefinitions.FligthReservationStepDefinition.theActorInsertTheDataFromFlight(FligthReservationStepDefinition.java:44)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br />org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)<br />org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: org.openqa.selenium.TimeoutException
+                    </h4>
+                    <div>
+                            <pre>Expected condition failed: waiting for By.xpath: //*[@id=&quot;upselling-baggage-popup-position&quot;]/upselling-baggage-popup/div/div[3]/div/div/button to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                        <pre>co.com.accenture.certificacion.reviewdespegar.tasks.InsertData.performAs(InsertData.java :25)<br />co.com.accenture.certificacion.reviewdespegar.stepdefinitions.FligthReservationStepDefinition.theActorInsertTheDataFromFlight(FligthReservationStepDefinition.java :44)<br />cucumber.runner.Runner.runPickle(Runner.java :80)<br />org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java :89)<br />org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java :41)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java :541)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java :763)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java :463)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java :209)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource198566464253596652.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="0ad3c9b5bccfb13c76d54231ed7a5cc1f1c20fcfeeb1acd7870d38284a2bcb9b.png" title="Given that the Autor looking for a flight reservation" width="1034"/>
+                <img src="0ad3c9b5bccfb13c76d54231ed7a5cc1f1c20fcfeeb1acd7870d38284a2bcb9b.png" title="Jessica opens the https://www.despegar.com.co" width="1034"/>
+                <img src="0ad3c9b5bccfb13c76d54231ed7a5cc1f1c20fcfeeb1acd7870d38284a2bcb9b.png" title="When the Actor insert the data from flight
+| originCity | destinationCity | departurDate | returnDate |
+| Medellin | Cartagena | 29 | 31 |" width="1034"/>
+                <img src="3524970410845f98b1b0b30369aeed3805e913797df6e722f9aedec2088be19e.png" title="Jessica clicks on Select the option flight" width="1034"/>
+                <img src="e6405355c059d351c8ac6a1b3ca456141cb612a1088ef89dc855c30a33cd0a28.png" title="Jessica clicks on Select the origin city" width="1034"/>
+                <img src="5175a19666cca5da01d051586c8419c4751499a9ffc81ed83587f3f0f16a308b.png" title="Jessica clicks on Select the origin city" width="1034"/>
+                <img src="8f6a5b2d611d1ad510221b3cf718c3fc66a3ab452163efc7e9b47039d0e6e2b1.png" title="Jessica enters 'Medellin' into Select the origin city" width="1034"/>
+                <img src="13eb53d6298947aee2622c1227fbc32029bda9a98efb5d77270ca099351fa9e2.png" title="Jessica enters 'Medellin' into Select the origin city" width="1034"/>
+                <img src="597c00a0b1a70d55c06a4b3fb71fa9b32c181abe4bdb136c8af2ccb876e5767e.png" title="Jessica clicks on Choose origin city" width="1034"/>
+                <img src="60e450ba35c7d9250c18d5b2305d707059f04c98fed446edda23ee78ba20081b.png" title="Jessica clicks on Choose origin city" width="1034"/>
+                <img src="f7ec4b4e99d95b18f8e46eaea95336db55105a92730ef4a99c3805971053b231.png" title="Jessica clicks on Select the destination city" width="1034"/>
+                <img src="435e324ca33df0a97b6f529d3742766876f65c5cff9b1d054d01a7e28cf539b6.png" title="Jessica clicks on Select the destination city" width="1034"/>
+                <img src="f05e784d051f92e6e3891d5f97f717ad472a355743de245f4761171a7e62edf1.png" title="Jessica enters 'Cartagena' into Select the destination city" width="1034"/>
+                <img src="7bce2e354afea22d6c6aa282adf50b0fdffc6fa4a5b22439e1b391bbc45a659e.png" title="Jessica enters 'Cartagena' into Select the destination city" width="1034"/>
+                <img src="71ea5d23f9a4adc3ffefc418d16eefb5cc28322964526cb3337c73e2fb7227de.png" title="Jessica clicks on Choose origin city" width="1034"/>
+                <img src="01e0e4cd66fdd7e6edb7368847454e95daa1606a2706904df173fb233be247ac.png" title="Jessica clicks on Choose origin city" width="1034"/>
+                <img src="aa245ec057ddde16c41f9281cc2f5f6a9f8a3c667e7dcf272e7d0db22de12712.png" title="Jessica clicks on Select the origin date" width="1034"/>
+                <img src="b77a47df44a4eaf90c7d19f188c9cc12dc6ceef7ea5c7a96aec5bb768deeb475.png" title="Jessica clicks on Select the origin date" width="1034"/>
+                <img src="b77a47df44a4eaf90c7d19f188c9cc12dc6ceef7ea5c7a96aec5bb768deeb475.png" title="Jessica clicks on Select the origin date" width="1034"/>
+                <img src="4d7b28e303b1163bc469bd551a70db7661caaf8f71d5a57762f383635018d25f.png" title="Jessica clicks on Select the origin date" width="1034"/>
+                <img src="930cfb3949e227cac33dd1d0dd6e87f220ae6442e341f2e7ffa2e82d58bbd337.png" title="Jessica clicks on Select the destination date" width="1034"/>
+                <img src="981256a674dda98e265dcfa681a02e3ccef24a226c08a598b40a15c8ef8aa359.png" title="Jessica clicks on Select the destination date" width="1034"/>
+                <img src="7275c8e22f933574b73757564708db9621836ddf75947f5bc7ae7b6dc8a888cf.png" title="Jessica clicks on Select the search button" width="1034"/>
+                <img src="661e5d3d95cee15d9a360b420405d4af919cb05b7f8370189be4202cb007fe30.png" title="Jessica clicks on Select the search button" width="1034"/>
+                <img src="661e5d3d95cee15d9a360b420405d4af919cb05b7f8370189be4202cb007fe30.png" title="Jessica clicks on Select package" width="1034"/>
+                <img src="661e5d3d95cee15d9a360b420405d4af919cb05b7f8370189be4202cb007fe30.png" title="Jessica clicks on Select package: <span class='failing-color'>FAILURE</span>" width="1034"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.9</span>
+</div>
+</body>
+</html>

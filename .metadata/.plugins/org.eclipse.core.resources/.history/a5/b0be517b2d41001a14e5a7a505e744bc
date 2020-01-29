@@ -1,0 +1,11 @@
+package co.com.accenture.certificacion.reviewdespegar.runners;
+
+@RunWith(CucumberWithSerenity.class)
+@CucumberOptions (
+		features="src\\test\\resources\\features\\flight_reserve.feature",
+		glue="co.com.accenture.certification.despegarproject.stepdefinitions",
+		snippets= SnippetType.CAMELCASE
+		)
+public class FligthReservationRunner {
+
+}

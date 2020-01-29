@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="cucumber.api.java.en.Given"/>
+<fullyQualifiedTypeName name="cucumber.api.java.en.When"/>
+<fullyQualifiedTypeName name="net.thucydides.core.annotations.Managed"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="cucumber.api.java.Before"/>
+<fullyQualifiedTypeName name="cucumber.api.java.en.Then"/>
+<fullyQualifiedTypeName name="cucumber.api.java.en.And"/>
+<fullyQualifiedTypeName name="net.serenitybdd.screenplay.actors.OnStage"/>
+<fullyQualifiedTypeName name="net.serenitybdd.screenplay.actors.OnlineCast"/>
+<fullyQualifiedTypeName name="net.serenitybdd.screenplay.abilities.BrowseTheWeb"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="FligthReservationRunner" project="ReviewDespegar" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="co.com.accenture.certificacion.reviewdespegar.runners.FligthReservationRunner" time="21.332">
+    <testsuite name="Feature: Make a fligth reservation" time="21.332">
+      <testcase name="Successfull flight reservation from main Despegar website" classname="Make a fligth reservation" time="21.332">
+        <error>org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'JESSICA', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\Jessica\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.130, webStorageEnabled: true}
+Session ID: cd9526b683a32bb73f6a7edfaff73472&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#13;
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)&#13;
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)&#13;
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)&#13;
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1041)&#13;
+	at net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)&#13;
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d.CGLIB$performAs$0(&lt;generated&gt;)&#13;
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d$$FastClassByCGLIB$$eb009f51.invoke(&lt;generated&gt;)&#13;
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)&#13;
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:449)&#13;
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:434)&#13;
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:409)&#13;
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:150)&#13;
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:137)&#13;
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)&#13;
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d.performAs(&lt;generated&gt;)&#13;
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:176)&#13;
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:157)&#13;
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:138)&#13;
+	at co.com.accenture.certificacion.reviewdespegar.tasks.InsertData.performAs(InsertData.java:25)&#13;
+	at co.com.accenture.certificacion.reviewdespegar.tasks.InsertData$$EnhancerByCGLIB$$5e66f2e6.CGLIB$performAs$0(&lt;generated&gt;)&#13;
+	at co.com.accenture.certificacion.reviewdespegar.tasks.InsertData$$EnhancerByCGLIB$$5e66f2e6$$FastClassByCGLIB$$a02d5e0d.invoke(&lt;generated&gt;)&#13;
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)&#13;
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:10)&#13;
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:20)&#13;
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:361)&#13;
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)&#13;
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)&#13;
+	at co.com.accenture.certificacion.reviewdespegar.tasks.InsertData$$EnhancerByCGLIB$$5e66f2e6.performAs(&lt;generated&gt;)&#13;
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:176)&#13;
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:157)&#13;
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:138)&#13;
+	at co.com.accenture.certificacion.reviewdespegar.stepdefinitions.FligthReservationStepDefinition.theActorInsertTheDataFromFlight(FligthReservationStepDefinition.java:44)&#13;
+	at ✽.the Actor insert the data from flight(src/test/resources/features/flight_reservation.feature:12)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

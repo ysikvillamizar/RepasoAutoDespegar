@@ -1,0 +1,16 @@
+package co.com.accenture.certificacion.reviewdespegar.userinterfaces;
+
+public  enum Page {
+
+	Despegar("https://www.despegar.com.co");
+	
+	private String url;
+
+	private Page(String url) {
+		this.url = url;
+	}
+	
+	public String url() {
+		return url;
+	}
+}
